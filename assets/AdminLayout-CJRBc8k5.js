@@ -1,0 +1,11 @@
+import{c as a,k as d,e as c,i as m,j as e,L as h,O as l}from"./index-v7AZZSma.js";import{P as x,F as u,S as g}from"./settings-DrwFaxph.js";/**
+ * @license lucide-react v0.475.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const p=[["rect",{width:"7",height:"9",x:"3",y:"3",rx:"1",key:"10lvy0"}],["rect",{width:"7",height:"5",x:"14",y:"3",rx:"1",key:"16une8"}],["rect",{width:"7",height:"9",x:"14",y:"12",rx:"1",key:"1hutg5"}],["rect",{width:"7",height:"5",x:"3",y:"16",rx:"1",key:"ldoo1y"}]],y=a("LayoutDashboard",p);/**
+ * @license lucide-react v0.475.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const f=[["path",{d:"M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4",key:"1uf3rs"}],["polyline",{points:"16 17 21 12 16 7",key:"1gabdz"}],["line",{x1:"21",x2:"9",y1:"12",y2:"12",key:"1uyos4"}]],v=a("LogOut",f),b=[{name:"Dashboard",path:"/admin",icon:y},{name:"Products",path:"/admin/products",icon:x},{name:"Categories",path:"/admin/categories",icon:u},{name:"Settings",path:"/admin/settings",icon:g}];function L(){const o=d(),s=c(),{logout:n}=m(),r=t=>t==="/admin"?o.pathname==="/admin":o.pathname.startsWith(t),i=()=>{n(),s("/admin/login")};return e.jsxs("div",{className:"flex min-h-[calc(100vh-4rem)]",children:[e.jsxs("aside",{className:"w-56 flex-shrink-0 border-r border-border bg-muted/40 p-4 hidden md:flex flex-col",children:[e.jsx("nav",{className:"flex flex-col gap-1 flex-1",children:b.map(t=>e.jsxs(h,{to:t.path,className:`flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-colors ${r(t.path)?"bg-primary text-primary-foreground":"text-muted-foreground hover:bg-muted hover:text-foreground"}`,children:[e.jsx(t.icon,{className:"w-4 h-4"}),t.name]},t.path))}),e.jsxs("button",{onClick:i,className:"flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium text-muted-foreground hover:bg-muted hover:text-foreground transition-colors",children:[e.jsx(v,{className:"w-4 h-4"}),"Logout"]})]}),e.jsx("div",{className:"flex-1 p-6 md:p-8 overflow-x-auto",children:e.jsx(l,{})})]})}export{L as AdminLayout};
